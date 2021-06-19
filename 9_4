@@ -1,0 +1,14 @@
+# Matlab-9_4
+嗨大家，我是matlab新手，我在準備matlab考試時，花了很多時間上網搜集資料，花了很多時間統整好後，我決定上傳code給大家參考，如果有寫錯也可以跟我說。
+Hi everyone, I'm a Matlab beginner. Here is the example that I practice. The book ISBN is 978-986-312-140-4. Hope you enjoy!
+%ex9_4.m
+function ex9_4(month)
+if month >=3 && month <= 5
+    disp('Spring')
+elseif month >=6 && month<= 8
+    disp('Summer')
+elseif month >=9 && month<=11
+    disp ('Fall')
+else 
+    disp('Winter')
+end
